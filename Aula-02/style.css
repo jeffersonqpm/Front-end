@@ -1,11 +1,64 @@
-a{
+a {
 
     text-decoration: none;
     color: rgb(244, 17, 24);
 }
 
-img{
 
-    height: 200px;
+.perfil {
+
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 5px #5D0CE0;
+
+
 
 }
+
+body{
+
+    background-color: #12131E;
+}
+p{
+        color: #828383;
+}
+.sobre-mim{
+    color: #828383;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+ul{
+    color: #828383;
+}
+
+h2{
+    color: #6243AE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.apresentacao{
+    color: #f5f3f3;
+
+}
+.apresentacao2{
+    color: #f5f3f3;
+
+}
+
+button{
+      border-radius: 50px;
+
+}
+
+button:hover{
+      border-radius: 57px;
+
+
+}
+
+
+
