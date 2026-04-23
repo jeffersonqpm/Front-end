@@ -1,20 +1,15 @@
 a {
 
     text-decoration: none;
-    color: rgb(244, 17, 24);
+   
 }
 
 
 .perfil {
-
-
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: solid 5px #5D0CE0;
-
-
-
 }
 
 body{
@@ -24,6 +19,7 @@ body{
 p{
         color: #828383;
 }
+
 .sobre-mim{
     color: #828383;
     text-align: center;
