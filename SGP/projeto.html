@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGP/css/style.css">
+    <title>Projetos</title>
+</head>
+
+<body>
+
+    <!-- input:password#senha
+                input:password#senha -->
+
+    <header>
+        <h1>Projetos</h1>
+    </header>
+
+    <main>
+        <section>
+
+            <H2>REGISTRO DE PROJETOS</H2>
+            <form action="">
+                <label for="nome">Nome:* </label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite o nome do projeto"><br><br>
+
+                <label for="descricao">Descrição:*</label><br>
+                <input type="text" name="descricao" id="descricao" placeholder="Digite a descrição"><br><br>
+
+                <label for="dataInicio">Data Inicial:*</label><br>
+                <input type="date" id="dataInicio" name="dataInicio"><br><br>
+
+                <label for="dataFinal">Data final:*</label><br>
+                <input type="date" name="dataFinal" id="dataFinal"><br><br>
+
+                <label for="status">Status:*</label><br>
+                <select name="status" id="status">
+                    <option value="#">Selecione</option>
+                    <option value="ATIVO">Ativo</option>
+                    <option value="CONCLUIDO">Concluído</option>
+                    <option value="CANCELADO">Cancelado</option>
+                </select>
+                <br><br>
+                <label for="responsavel">Responsável:*</label><br>
+                <select name="responsavel" id="status">
+                    <option value="#">Selecione</option>
+                    <option value="Jefferson">Jefferson</option>
+                    <option value="Renata">Renata</option>
+                    <option value="Joana">Joana</option>
+                </select>
+                <br><br><br>
+                <input onclick="alert('Projeto salvo com sucesso!')" type="button" value="Salvar" id="salvar"
+                    name="salvar">
+                <input type="reset">
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

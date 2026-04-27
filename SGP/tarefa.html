@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGP/css/style.css">
+    <title>Tarefas</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tarefas</h1>
+    </header>
+
+    <main>
+        <section>
+
+            <h2>REGISTRO DE TAREFAS</h2>
+            <form action="">
+
+                <label for="titulo">Título: <span class="obrigatorio">*</span></label><br>
+                <input id="titulo" name="titulo" placeholder="Digite o nome do projeto"></inputtitulo><br><br>
+
+                <label for="descricao">Descrição:*</label><br>
+                <input type="text" name="descricao" id="descricao" placeholder="Descricão do projeto"><br><br>
+
+                <label for="dataCriacao">Data de criação</label><br>
+                <input type="date" name="dataCriacao" id="dataCriacao"><br><br>
+
+                <label for="dataConclusao">Data de conclusão</label><br>
+                <input type="date" name="dataConclusao" id="dataConclusao"><br><br>
+
+                <label for="prioridade">Prioridade</label><br>
+                <select name="prioridade" id="prioridade">
+                    <option value="#">Selecione</option>
+                    <option value="BAIXA">Baixa</option>
+                    <option value="MEDIA">Média</option>
+                    <option value="ALTA">Alta</option>
+                </select><br><br>
+
+                <label for="status"> Status:*</label><br>
+                <select name="status" id="status">
+                    <option value="#">Selecione</option>
+                    <option value="PENDENTE">Pendente</option>
+                    <option value="FAZENDO">Fazendo</option>
+                    <option value="CONCLUIDA">Concluída</option>
+                </select>
+                <br><br>
+                <label for="usuario">Usuário:*</label><br>
+                <input type="text" name="usuario" id="usuario" value="Jefferson Queiroz" disabled>
+                <br><br>
+                <label for="projeto">Projeto</label><br>
+                <select name="projeto" id="projeto">
+                    <option value="#">Selecione</option>
+                    <option value="#">Aula de Java</option>
+                    <option value="#">Aula de React</option>
+                </select>
+<br><br><br>
+                <input type="button" onclick="alert('Tarefa registrada com sucesso!')" value="Salvar">
+                <input type="reset" value="Redefinir">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
+<!--
+
+
+titulo
+
+descricao
+
+data criacao
+
+datya conclusao
+
+prioridade
+
+status
+
+usuario
+
+projeto
+
+
+
+
+-->
