@@ -18,10 +18,11 @@
         <section>
 
             <h2>REGISTRO DE TAREFAS</h2>
-            <form action="">
+            <form action="" id="titularTarefa">
 
-                <label for="titulo">Título: <span class="obrigatorio">*</span></label><br>
-                <input id="titulo" name="titulo" placeholder="Digite o nome do projeto"></inputtitulo><br><br>
+                <label for="tituloTarefa">Título: <span class="obrigatorio">*</span></label><br>
+                <input id="tituloTarefa" name="tituloTarefa" placeholder="Digite o nome do projeto"></inputtitulo>
+                <br><br>
 
                 <label for="descricao">Descrição:*</label><br>
                 <input type="text" name="descricao" id="descricao" placeholder="Descricão do projeto"><br><br>
@@ -57,7 +58,9 @@
                     <option value="#">Aula de Java</option>
                     <option value="#">Aula de React</option>
                 </select>
-<br><br><br>
+                <br><br><br>
+
+                <input type="checkbox" id="definirLembrete" name="definirLembrete"> Definir lembrete <br><br>
                 <input type="button" onclick="alert('Tarefa registrada com sucesso!')" value="Salvar">
                 <input type="reset" value="Redefinir">
             </form>

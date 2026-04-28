@@ -1,3 +1,14 @@
+*{
+
+    color: red;
+}
+
+h1{
+    /* color: rgb(229, 55, 84); */
+    color: rgb(218, 244, 18);
+    font-size: 45px;
+}
+
 label {
 
     font-weight: bold;
@@ -17,4 +28,13 @@ a:hover {
 .obrigatorio {
     color: red;
     /* margin-left: 3px; /* Opcional: dá um pequeno espaço entre o texto e o * */
+}
+
+
+
+#titularTarefa{
+    width: 50%;
+    height: 200px;
+    background-color: antiquewhite;
+    border-top: chocolate;
 }
