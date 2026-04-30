@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <h1>PROJETO</h1>
+
+      <div class="menu">
+
+
+      <ul>
+         <li><a href="usuario.html">Usuario</a></li>
+         <li><a href="projeto.html">Projeto</a></li>
+         <li><a href="tarefa.html">Tarefa</a></li>
+         <li><a href="exercioAula05.html">Aula-05</a></li>
+      </ul>
+
+   </div>
+   <div class="conteiner">
+
+      <form>
+
+         <label for="nomeProjeto">Nome do Projeto</label><br>
+         <input type="text" id="nomeProjeto" name="nomeProjeto"><br><br>
+
+         <label for="descricaoProjeto">Descrição do Projeto</label><br>
+         <textarea id="descricaoProjeto" name="descricaoProjeto"></textarea><br><br>
+
+         <label for="dtCriacaoProjeto">Data de Criação do Projeto</label>
+         <input type="date" id="dtCriacaoProjeto" name="dtCriacaoProjeto">
+
+         <label for="dtConclusaoProjeto">Data de Conclusão do Projeto</label>
+         <input type="date" id="dtConclusaoProjeto" name="dtConclusaoProjeto"><br><br>
+
+         <label for="statusProjeto">Status</label><br>
+         <select id="statusProjeto" name="statusProjeto">
+            <option value="">SELECIONE</option>
+            <option value="pendente">PENDENTE</option>
+            <option value="andamento">ANDAMENTO</option>
+            <option value="concluido">CONCLUIDO</option>
+            <option value="entregue">ENTREGUE</option>
+         </select>
+
+         <label for="responsavelProjeto">Responsável</label>
+         <input type="text" id="responsavelProjeto" name="responsavelProjeto"><br><br>
+
+         <button type="submit" onclick="alert('Projeto Salvo com Sucesso!!')" id="btnSalvarProjeto">Salvar</button>
+
+      </form>
+   </div>
+
+
+</body>
+
+
+</html>

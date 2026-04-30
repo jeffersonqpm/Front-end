@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<!-- <style>
+
+   #tituloTarefa{
+      width: 100%;
+      height: 200px;
+      background-color: antiquewhite;
+   }
+
+   #descricaoTarefa{
+      width: 80%;
+      height: 100px;
+      background-color: aqua;
+   }
+
+</style> -->
+
+
+<body>
+   <h1>TAREFA</h1>
+
+   <div class="menu">
+
+
+      <ul>
+         <li><a href="usuario.html">Usuario</a></li>
+         <li><a href="projeto.html">Projeto</a></li>
+         <li><a href="tarefa.html">Tarefa</a></li>
+         <li><a href="exercioAula05.html">Aula-05</a></li>
+      </ul>
+
+   </div>
+
+   <div class="conteiner">
+
+      <form>
+         <label for="tituloTarefa">Título</label><br>
+         <input type="text" id="tituloTarefa" name="tituloTarefa"><br><br>
+
+         <label class="teste" for="prioridadeTarefa">Prioridade</label><br>
+         <select id="prioridadeTarefa" name="prioridadeTarefa">
+            <option value="">SELECIONE</option>
+            <option value="alta">ALTA</option>
+            <option value="media">MEDIA</option>
+            <option value="baixa">BAIXA</option>
+         </select>
+
+         <label for="responsavelTarefa">Responsável</label>
+         <input type="text" id="responsavelTarefa" name="responsavelTarefa"><br><br>
+
+         <label for="descricaoTarefa">Descrição</label><br>
+         <textarea id="descricaoTarefa" name="descricaoTarefa"></textarea><br><br>
+
+         <label for="dtCriacaoTarefa">Data de Criação da Tarefa</label>
+         <input type="date" id="dtCriacaoTarefa" name="dtCriacaoTarefa">
+
+         <label for="dtConclusaoTarefa">Data Conclusão Tarefa</label>
+         <input type="date" id="dtConclusaoTarefa" name="dtConclusaoTarefa"><br><br>
+
+         <label for="statusTarefa">Status</label>
+         <select id="statusTarefa" name="statusTarefa">
+            <option value="">SELECIONE</option>
+            <option value="pendente">PENDENTE</option>
+            <option value="andamento">ANDAMENTO</option>
+            <option value="concluido">CONCLUÍDO</option>
+            <option value="entregue">ENTREGUE</option>
+         </select>
+
+         <label for="projeto">Projeto</label>
+         <select id="projeto" name="projeto">
+            <option value="">SELECIONE</option>
+            <option value="website">WEBSITE</option>
+            <option value="aplicativo">APLICATIVO</option>
+            <option value="sistemaweb">SISTEMA WEB</option>
+            <option value="outros">OUTROS</option>
+         </select><br><br>
+
+         <input type="checkbox" id="definirLembrete" name="definirLembrente">
+         <label for="definirLembrete"><strong>Definir Lembrete</strong></label><br><br>
+
+         <button type="submit" id="btnSalvarTarefa" onclick="alert('Tarefa Salva com Sucesso!!!')">Salvar</button>
+         <input type="reset" name="limparTarefa" id="limparTarefa" value="Limpar campos">
+
+      </form>
+
+   </div>
+
+
+</body>
+
+
+</html>
