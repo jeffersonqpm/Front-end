@@ -76,7 +76,7 @@ teste {
 
 .conteiner{
     position: relative;
-    background-color: aliceblue;
+    background-color: rgb(30, 127, 212);
     width: 850px;
     height: 700px;
     margin: auto;
@@ -133,7 +133,7 @@ teste {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100px;
     background-color: gray;
     color: white;
     padding: 10px;
@@ -158,4 +158,36 @@ teste {
     background-color: rgb(54, 5, 232);
     top: 20px;
     left: 2px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+
+}
+li{
+    float: left;
+   margin-left: 10px;
+}
+
+.temp{
+
+    color: rgb(251, 255, 0);
+     background-color: rgb(32, 17, 233);
+}
+.temp:hover{
+
+    color: rgb(247, 243, 4);
+     background-color: rgb(250, 8, 0);
 }
